@@ -1,0 +1,7 @@
+### Valid SEFAZ ES link containing 3 items.
+POST {{server_and_port}}/scrap_this_link
+Content-Type: application/json
+
+{
+  "link": "http://app.sefaz.es.gov.br/ConsultaNFCe/qrcode.aspx?p=32210113469300000166650010004337771005062012%7C2%7C1%7C1%7C2E6E0BD2DE1A62DE50E0CA009522BB0ABEFC8149"
+}
