@@ -86,6 +86,7 @@ def fetch_and_parse_sefaz_link(url) -> Compra:
         else:
             raise ValueError("url unreachable or broken.")
         # pass
+        
     else:
         raise TypeError("Url is incomplete or it does not match SEFAZ_ES URL path. provided URI >> {} \n".format(url))
 
